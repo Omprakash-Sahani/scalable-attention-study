@@ -42,7 +42,39 @@ This study evaluates memory-efficient attention implementations under controlled
 * Single-device experiments
 * No large-scale cluster testing
 
-## 7. Long-Term Direction
+## 7. Ecosystem Integration
+
+scalable-attention-study investigates memory-efficient attention mechanisms under controlled system constraints.
+
+It is intended to:
+
+* Run distributed experiments using distml-core
+* Use autograd-engine for transparent gradient analysis where appropriate
+* Be evaluated and tracked using ml-benchmark-suite for reproducible experimentation
+
+This repository focuses on studying scaling behavior while leveraging the broader systems infrastructure.
+
+## 8. Implementation Roadmap
+
+### Phase 1
+
+* Core minimal functionality
+* Controlled synthetic experiments
+* Basic metric logging
+  
+### Phase 2
+
+* Performance benchmarking
+* Ablation studies
+* Architectural refinements
+
+### Phase 3
+
+* Scalability extensions
+* Integration with other repositories
+* Extended experimental evaluation
+
+## 9. Long-Term Direction
 
 * Integration with distml-core
 * Memory-aware distributed transformer simulation
